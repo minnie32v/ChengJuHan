@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cheng Ju Han</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="plugins/owl.carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="plugins/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/design_protfolio_style.css">
+	<link rel="shortcut icon" href="image/design_favicon.ico" type="image/x-icon">
+	<link rel="icon" href="image/design_favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Start sidebar_left -->
+		<div class="sidebar_left mobile-hidden">
+			<a href="index.html" class="logo">鄭如涵個人作品集</a>
+		</div>
+		<!-- end sidebar_left -->
+		
+		<!-- Start header -->
+		<div class="header mobile-hidden">
+			<ul class="menu">
+				<li class="menu-item dropdown">
+					<a class="item-white" href="">平面設計</a>
+					<ul class="dropdown-content">
+						<li><a class="item-white item" href="gochui.html">Gochui古錐</a></li>
+						<li><a class="item-white item" href="card.html">名片設計</a></li>
+						<li><a class="item-white item" href="p02.html">織度</a></li>
+						<li><a class="item-white item" href="p03.html">赤腳仙</a></li>
+						<li><a class="item-white item" href="marry.html">婚姻平權</a></li>
+					</ul>
+				</li>
+				<li class="menu-item dropdown">
+					<a class="item-white" href="">網頁設計</a>
+					<ul class="dropdown-content">
+						<li><a class="item-white item" href="http://delai.mazobo.com/" target="_blank">德萊國際</a></li>
+						<li><a class="item-white item" href="http://wise.mazobo.com/" target="_blank">靈知科技</a></li>
+					</ul>
+				</li>
+				<!-- <li class="menu-item"><a href="#" class="item-gray">網頁設計</a></li> -->
+			</ul>
+		</div>
+		<!-- end header -->
+		
+		<!-- Start sidebar_right -->
+		<div class="sidebar_right mobile-hidden">
+			<ul class="intro">
+				<li class="intro-item"><a href="https://minnie32v.github.io/lilicoco/" class="lilicoco item-white">哩哩叩叩</a></li>
+				<li class="intro-item"><a href="intro.html" class="name">ABOUT ME<br>鄭如涵 CHENG JU HAN<br>Taiwanese<br>1992/07/27<br><br>歡迎合作接案！<br>0919509620</a></li>
+				<li class="intro-item"><a href="mailto:minnie32v@gmail.com" class="mail-icon item-white"><i class="fa fa-envelope-o" aria-hidden="true"></i></a><a href="mailto:minnie32v@gmail.com" class="mail item-white">minnie32v@gmail.com</a></li>
+				<li class="intro-item age">25</li>
+			</ul>
+		</div>
+		<!-- end sidebar_right -->
+		
+		<!-- Start mobile header -->
+		<div class="mobile-header web-hidden">
+			<a href="index.html" class="logo">鄭如涵個人作品集</a>
+			<hr>
+			<ul class="menu">
+				<li class="menu-item dropdown">
+					<a class="item-white" href="#!"><h5>平面設計</h5></a>
+					<ul class="dropdown-content">
+						<li><a class="item-white item" href="gochui.html"><h5>Gochui古錐</h5></a></li>
+						<li><a class="item-white item" href="card.html"><h5>名片設計</h5></a></li>
+						<li><a class="item-white item" href="p02.html"><h5>織度</h5></a></li>
+						<li><a class="item-white item" href="p03.html"><h5>赤腳仙</h5></a></li>
+						<li><a class="item-white item" href="marry.html"><h5>婚姻平權</h5></a></li>
+					</ul>
+				</li>
+				<li class="menu-item dropdown">
+					<a class="item-white" href="#!">網頁設計</a>
+					<ul class="dropdown-content">
+						<li><a class="item-white item" href="http://delai.mazobo.com/" target="_blank">德萊國際</a></li>
+						<li><a class="item-white item" href="http://wise.mazobo.com/" target="_blank">靈知科技</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end mobile header -->
+
+		<!-- start jumbotron-video -->
+		<div class="js-jumbotron-video mobile-hidden"></div>
+		<!-- end jumbotron-video -->
+		<!-- start jumbotron-video -->
+		<!-- <div class="web-hidden" style="background-image: url(image/bg.jpg);"></div> -->
+		<!-- end jumbotron-video -->
+
+		<!-- start footer -->
+		<div class="footer">
+			<div class="copyright">Copyright © <a href="index.html" class="copyright-link">CHENG JU HAN</a> | All rights reserved</div>
+		</div>
+		<!-- end footer -->
+	</div>
+	
+	<!-- js -->
+	<script src="plugins/jquery-3.2.1.min.js"></script>
+	<script src="plugins/jquery.vide.min.js"></script>
+	<script>
+		$('.js-jumbotron-video').vide({
+			mp4:'video/final.mp4',
+			// webm:'video/bg.webm',
+			// ogv:'video/final.ogg',
+		    // 載入畫面圖片
+			// poster:'image/banner01.jpg',
+		},{
+			volume: 1,
+  			playbackRate: 1,
+  			muted: true,
+		  	loop: true,
+		  	autoplay: true,
+		  	position: '100% 68%', // Similar to the CSS `background-position` property.
+		  	posterType: 'detect', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
+		  	resizing: true, // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
+		  	bgColor: 'transparent', // Allow custom background-color for Vide div,
+		  	className: '' // Add custom CSS class to Vide div
+		});
+	</script>
+</body>
+</html>
